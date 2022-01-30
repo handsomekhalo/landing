@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+
+  display: flex;
+
+  align-items: flex-end;
+}
+
+.header-links span {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9f8fa;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left {
+  margin-left: 200px;
+  margin-bottom: 80px;
+}
+
+.right {
+  width: 100%;
+  height: auto;
+}
+
+.right img {
+  margin-left: 80px;
+
+  width: 400px;
+  height: 200px;
+}
+
+.butn {
+  margin-top: 20px;
+  background-color: #3b82f6;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-style: bold;
+}
+
+.butn p {
+  padding: 20px;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.text-cards {
+  color: gray;
+  text-align: center;
+}
+
+.mid-card {
+  margin-top: 20px;
+  background-color: #e5e7eb;
+}
+
+.mid-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 80px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #3b82f6;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5px;
+}
+ .call-to-action {
+  color: white;
+  margin: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  width: 120px;
+  height: auto;
+  float: right;
+  font-size: 25px;
+}
+
+.footer {
+  margin-top: 60px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
